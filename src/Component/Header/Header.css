@@ -1,0 +1,109 @@
+.navbar {
+  background-color: var(--dark-blue);
+}
+.navbar-brand {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand img {
+  width: 100%;
+}
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+}
+.navbar a {
+  transition: 0.4s linear;
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a.active {
+  color: var(--color-orange);
+  border-bottom: 2px solid white;
+}
+.navbar.active .rounded-pill{
+  color: #333;
+}
+.navbar a:hover {
+  color: var(--color-orange);
+}
+.navbar {
+  transition: 0.5s linear;
+}
+.navbar.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 1px -2px 5px black;
+  z-index: 11;
+  transition: 0.5s linear;
+}
+.navbar.active a{
+    color: #333;
+}
+.navbar.active a.active{
+    color: var(--color-orange);
+    border-bottom: 2px solid var(--color-orange);
+}
+.navbar.active a:hover{
+    color: var(--color-orange) !important;
+    border-bottom: 2px solid var(--color-orange) !important;
+}
+.navbar.active .navbar-toggler-icon{
+    color: #333 !important;
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  font-size: 3rem;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+  height: auto !important;
+  vertical-align: inherit !important;
+}
+.navbar-toggler {
+  display: flex;
+  border: 0 !important;
+  padding: 0 !important;
+}
+.collapse:not(.show) {
+  display: none !important;
+}
+.hi {
+  color: var(--color-orange) !important;
+}
+.badge {
+  top: 10% !important;
+  right: -25%;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-toggler span {
+  transition: 0.4s linear;
+}
+.navbar-toggler span.active {
+  color: var(--color-orange) !important;
+}
+.navbar a {
+  border-bottom: 2px solid transparent;
+}
+@media screen and (max-width: 992px) {
+  .navbar ul a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,38 @@
+.cart .mainProducts{
+    background-image: url(../../images/shopping.jpg);
+}
+table th{
+    font-size: 1.4rem;
+}
+td img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+th{
+    padding: 20px 0;
+}
+td{
+    padding: 20px 0;
+    font-size: 1.6rem !important;
+}
+.subtotal{
+    padding: 20px 0;
+}
+tbody tr{
+    animation: fadein .4s linear;
+}
+.overflow-x-scroll{
+    overflow-x: auto;
+}
+@keyframes fadein{
+    0%{
+    opacity: 0;
+    }
+    50%{
+    opacity: 0;
+    }
+    100%{
+    opacity: 1;
+    }
+}

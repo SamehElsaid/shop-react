@@ -1,0 +1,40 @@
+.home {
+    background-color: var(--hero-bg);
+}
+
+.home h1 {
+    color: var(--heading-text-color);
+    font-size: 3.5rem;
+}
+
+.home h2 {
+    color: var(--small-text-color);
+}
+
+.home p {
+    color: var(--small-text-color);
+}
+
+.timeOffer {
+    background-color: var(--primary-color);
+}
+
+.timeOffer .time {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.timeOffer .time .boxTime {
+    display: grid;
+    justify-items: center;
+}
+.btn-link{
+    color: var(--heading-text-color) !important;
+    background-color: white !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+}
+.btn-link:hover{
+    background-color: rgb(180, 180, 180) !important;
+}

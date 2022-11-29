@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+  --color-white: #fff;
+  --color-dark: #333;
+  --color-grey: #eee;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --color-purple: #9d0191;
+  --color-orange: #fab41d;
+  --color-primary: #007bff;
+  --color-success: #28a745;
+  --color-danger: orangered;
+  --transition: .4s linear;
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+}
+
+
+html {
+  font-size: 10px;
+
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+section {
+  padding: 8rem 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+}
+.Toastify {
+  position: fixed !important;
+  top: 10% !important;
+  z-index: 111;
+}
+
+.Toastify__toast-container--top-right {
+  top: 8em !important;
+}

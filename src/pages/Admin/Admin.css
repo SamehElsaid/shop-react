@@ -1,0 +1,147 @@
+.allUserEdit {
+    margin-bottom: 10px;
+    box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.parent .inputEdit {
+    display: none;
+}
+
+.controlUl {
+    animation: fadein .4s linear;
+}
+
+.Chair {
+    animation: fadein .4s linear;
+}
+
+.controlDat {
+    display: none;
+}
+
+input[type="file"] {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.update {
+    position: absolute;
+    inset: 0;
+    font-size: 4rem;
+    top: 50%;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    background: #0000006e;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s linear;
+}
+
+.num {
+    width: 100%;
+    height: 20px;
+    border-radius: 99999px;
+    background-color: var(--heading-text-color);
+    color: white;
+}
+.control_img{
+    height: 300px !important;
+}
+.imgWidth {
+    height: 300px !important;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.increase {
+    width: 0;
+    height: 20px;
+    border-radius: 99999px;
+}
+
+.Chair .btn-warningControl {
+    opacity: 0;
+}
+
+.update {
+    border-radius: 20px;
+}
+
+.control_img:hover .update {
+    opacity: 1;
+}
+
+.numRight {
+    top: 50%;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.chair h3 {
+    color: var(--color-success);
+}
+
+.Chair {
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+.chair span {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid rgb(227 227 227 / 54%);
+    animation: fadein .4s linear;
+}
+
+.chair input,
+.chair textarea {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    animation: fadein .4s linear;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ulEdit li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    transition: .4s linear;
+}
+
+.ulEdit li.active {
+    color: var(--color-danger);
+}
+select.form-select.inputEdit {
+    padding: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}

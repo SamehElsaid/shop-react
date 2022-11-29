@@ -1,0 +1,64 @@
+.mainProducts {
+    height: 300px;
+    background: url(../../images/pexels-karolina-grabowska-5625112.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainProducts h2 {
+    position: relative;
+    color: white;
+    font-size: 3rem;
+}
+
+.mainProducts::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.shop select {
+    padding: 8px 20px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.shop select:focus {
+    outline: none;
+}
+
+.shop select option {
+    font-size: 1.2rem;
+}
+
+.searchInput {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding-right: 12px;
+    font-size: 1.3rem;
+}
+
+.searchInput input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+}
+
+.searchInput svg {
+    font-size: 2rem;
+}

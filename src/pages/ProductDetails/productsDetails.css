@@ -1,0 +1,87 @@
+.productsDetails .proImg {
+    width: 100%;
+}
+
+.productsDetails button {
+    background: var(--primary-color) !important;
+    color: white;
+    margin-top: 20px;
+}
+
+.productsDetails button:hover {
+    background: var(--color-primary) !important;
+    color: white;
+}
+
+.revDes .description {
+    min-height: 40px;
+    margin: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.description form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+}
+
+.description textarea {
+    font-size: 2rem;
+    margin: 30px 0;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+}
+
+.description form button {
+    background: var(--primary-color) !important;
+    color: white;
+    align-self: flex-start;
+}
+
+.productsDetails button:hover {
+    background: var(--color-primary) !important;
+    color: white;
+}
+.mainData{
+    display: block;
+    height: auto;
+    overflow: hidden;
+    
+}
+.mainDataProd{
+    display: none;
+    animation: fadein .4s linear;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.mainDataProd:nth-of-type(1){
+    display: block;
+}
+.mainDataProd:nth-of-type(2){
+    display: block;
+}
+.showMore{
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
