@@ -23,7 +23,7 @@ const Login = memo(() => {
         toast.success("Login Successful", {
           theme: "colored",
         });
-        navigate("/");
+        navigate("/shop-react");
         setLoading(false);
       })
       .catch((error) => {

@@ -32,7 +32,7 @@ const Register = memo(() => {
           setPassword("");
           setCoPassword("");
           setEmail("");
-          navigate("/");
+          navigate("/shop-react");
           setLoading(false);
         })
         .catch((error) => {

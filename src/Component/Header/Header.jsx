@@ -108,7 +108,7 @@ const Header = memo(() => {
           >
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/shop-react">Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/shop">Shop</NavLink>

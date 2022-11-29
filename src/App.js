@@ -104,7 +104,7 @@ function App() {
         <Header />
         <ToastContainer className="toastContainer" />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/shop-react" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:id" element={<ProductDetails />} />
           <Route path="/contact" element={<Contact />} />
