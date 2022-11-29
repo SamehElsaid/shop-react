@@ -23,7 +23,7 @@ const Cart = memo(() => {
       </div>
       <section>
         <div className="container">
-          <div className="row flex-nowrap">
+          <div className="row ">
             <div className="col-12 overflow-x-scroll">
               <table className="w-100 ">
                 <thead style={{ color: "coral" }}>

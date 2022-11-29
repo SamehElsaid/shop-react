@@ -1,6 +1,9 @@
 .cart .mainProducts{
     background-image: url(../../images/shopping.jpg);
 }
+table{
+    overflow-x: auto;
+}
 table th{
     font-size: 1.4rem;
 }

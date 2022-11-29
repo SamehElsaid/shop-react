@@ -158,7 +158,7 @@ const ProductDetails = memo(() => {
           {viewProduct &&
             (mainData ? (
               <div className="row align-items-center">
-                <div className="col-6">
+                <div className="col-sm-12 col-md-6 col-lg-6 ">
                   <div className="img">
                     <img src={mainData.imgUrl} className="proImg" alt="" />
                   </div>
@@ -199,16 +199,16 @@ const ProductDetails = memo(() => {
               load && (
                 <>
                   <div className="row">
-                    <div className="col-3">
+                    <div className="col-sm-12 col-md-6 col-lg-3">
                       <Spider />
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-12 col-md-6 col-lg-3">
                       <Spider />
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-12 col-md-6 col-lg-3">
                       <Spider />
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-12 col-md-6 col-lg-3">
                       <Spider />
                     </div>
                   </div>
@@ -275,7 +275,7 @@ const ProductDetails = memo(() => {
                               <h5>
                                 <span style={{ color: "coral" }}>
                                   ({ele.rating})
-                                </span>{" "}
+                                </span>
                                 rating
                               </h5>
                             </div>
@@ -342,16 +342,16 @@ const ProductDetails = memo(() => {
               </div>
             ) : (
               <>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
               </>
@@ -365,22 +365,22 @@ const ProductDetails = memo(() => {
           <div className="row">
             {alsoLike ? (
               alsoLike.slice(0, 8).map((ele, i) => (
-                <div className="col-3" key={i}>
+                <div className="col-sm-12 col-md-6 col-lg-3" key={i}>
                   <Products change={change} data={ele} />
                 </div>
               ))
             ) : (
               <>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-12 col-md-6 col-lg-3">
                   <Spider />
                 </div>
               </>
